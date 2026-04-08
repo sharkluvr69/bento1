@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Kate',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Canvas',
+			icon: 'book-open-check',
+			link: 'https://auburn.instructure.com/?login_success=1',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Outlook',
+			icon: 'at-sign',
+			link: 'https://outlook.office.com/mail/inbox/id/AAQkADNlOWM1MWEwLWE0MjctNDAzNC1hNjdkLWJjNzJiMTdjOWM0ZAAQAMsR%2Boj3ezdLg6R0nILenwY%3D',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Box',
+			icon: 'package-open',
+			link: 'https://auburn.app.box.com/collections',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'AU Access',
+			icon: 'graduation-cap',
+			link: 'https://experience.elluciancloud.com/auburn/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Calendar',
+			icon: 'calendar-days',
+			link: 'https://outlook.office.com/calendar/view/workweek',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Loop',
+			icon: 'square-chart-gantt',
+			link: 'https://outlook.office.com/host/4a6520d6-94a8-4730-9184-24997b9b3401/auth',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'school',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'LinkedIn',
+					link: 'https://www.linkedin.com/feed/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Google Drive',
+					link: 'https://drive.google.com/drive/u/0/my-drive',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Remote Computer',
+					link: 'https://rdp.eng.auburn.edu/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Claude',
+					link: 'https://claude.ai/new',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'user',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/u/1/#inbox',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Youtube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'ERA Online',
+					link: 'https://eraonline.odoo.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: '34 Portal',
+					link: 'https://www.club34.net/portal/#/auth/login',
 				},
 			],
 		},
